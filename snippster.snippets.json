@@ -1,0 +1,24 @@
+{
+    "First": {
+        "prefix": [
+            "Any2"
+        ],
+        "body": [
+            "function ${1:myFunction}($2) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Any Function"
+    },
+    "Secondary": {
+        "prefix": [
+            "Any2"
+        ],
+        "body": [
+            "function ${1:myFunction}($2) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Any Function"
+    }
+}
