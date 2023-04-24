@@ -73,6 +73,7 @@ const registerCompletionItemProvider = (
 ) => {
     vscode.languages.registerCompletionItemProvider(
         snippetLanguage,
+        // [{ scheme: 'file', language: 'javascript' }],
         {
             provideCompletionItems(document, position) {
                 const start = new vscode.Position(position.line, 0);
